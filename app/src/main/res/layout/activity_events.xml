@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/back1"
+    tools:context=".Events">
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/linear1"
+        android:layout_marginStart="95dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo1">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linear12"
+        android:layout_below="@+id/linear1"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MindHug"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/adamina"
+            android:textStyle="bold"
+            android:textColor="@color/input_login">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linear13"
+        android:layout_below="@+id/linear12"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MindHug wants to bring happiness and wellbeing for all."
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/abeezee"
+            android:textStyle="bold"
+            android:textColor="@color/input_login">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/linear14"
+        android:layout_below="@+id/linear13"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/abeezee"
+            android:text="We understand that your psychological, social and cultural make-up, and not just biology and chemistry, have a huge role to play in your wellbeing. One size does not fit all. Therefore, we are building a platform to provide you access to a wide choice of credible activities and therapies. Think of art, music, yoga, drama, mindfulness, pet therapy and other activities that positively influence depression and anxiety. We will do this by engaging the community and service providers as well as through affordable digital content and immersive media."
+            android:textAlignment="center"
+            android:textColor="@color/input_login"
+            android:textStyle="bold"
+            android:textSize="15sp">
+
+        </TextView>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="AddCalendarEvent"
+        android:text="Create Event"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bg5"/>
+
+</RelativeLayout>

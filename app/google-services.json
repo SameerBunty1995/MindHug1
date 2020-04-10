@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "263198296748",
+    "firebase_url": "https://mindhug-60895.firebaseio.com",
+    "project_id": "mindhug-60895",
+    "storage_bucket": "mindhug-60895.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263198296748:android:55a6f97f446d0fb15e6d09",
+        "android_client_info": {
+          "package_name": "sameer.com.minghug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263198296748-6klcmdpj6oad864dmo66uh0id6q4kqul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sameer.com.minghug",
+            "certificate_hash": "2a3c9227eadb144f20965222678b9329f7e883ad"
+          }
+        },
+        {
+          "client_id": "263198296748-813p0uoh63r1lu7mc5gg94n923plnhe8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIdRZWmD5R4Nm81ulKnHIu4VM18mCgtFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263198296748-813p0uoh63r1lu7mc5gg94n923plnhe8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

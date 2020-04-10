@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="MindHug®"
+        android:textColor="@color/color"
+        android:textSize="35dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abeezee"
+                android:text="Mental wellbeing and you. Because one size does not fit all."
+                android:textSize="18sp"
+                android:textColor="@color/input_login"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/input_login"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="We help find what works best for your happiness and wellbeing. We do this by harnessing the familiarity of community and the power of digital." />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/input_login"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Our team is busy building a platform that will allow you to:" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Explore our Community"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/input_login"/>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/communitty"
+                android:layout_marginTop="0dp">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/input_login"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="
+Find, book and try a wide choice of beneficial therapies and activities in your community. We will offer art therapy, mindfulness, music therapy, sound baths, breathing, pet therapy, drama therapy, yoga and nature walks."
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Engage digitally "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/input_login"/>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/digitally"
+                android:layout_marginTop="0dp"
+                android:textStyle="bold"
+                android:textColor="@color/input_login">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/input_login"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Subscribe to a variety of digital content, media, activities and therapies. From experiential art based activities to guided meditation to breathing exercises."
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Book workshops and events "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/input_login"/>
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/bookworkshop"
+                android:layout_marginTop="0dp"
+                android:textStyle="bold"
+                android:textColor="@color/input_login">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:textColor="@color/input_login"
+                android:text="Book and attend bespoke workshops and retreats to help rejuvenate yourself. If you would like to talk to us about organising a workshop for your organisation or group, please contact us."
+                android:textSize="18sp" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Experience free taster sessions "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/input_login"/>
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/freetaster"
+                android:layout_marginTop="0dp"
+                android:textStyle="bold"
+                android:textColor="@color/input_login">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/input_login"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Attend free events to meet your community and try some therapies and activities."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Employ a mood diary and wellbeing analytics "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/input_login"/>
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/employmood"
+                android:layout_marginTop="0dp"
+                android:textStyle="bold"
+                android:textColor="@color/input_login">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/input_login"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Track lifestyle, sleep, diet, emotional health and your response to activities and therapies through our unique mood diary. Use our analytics to find what works best for you."
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lets's Go"
+                android:background="@drawable/bg3"
+                android:id="@+id/button1" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
